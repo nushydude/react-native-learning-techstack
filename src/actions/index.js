@@ -10,7 +10,7 @@ export const actionFetchLibraries = () => ({
   payload: data,
 });
 
-export const actionSelectLibraryId = id => ({
+export const actionSelectLibrary = id => ({
   type: SELECT_LIBRARY_ID,
   payload: id,
 });
